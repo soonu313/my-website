@@ -1,0 +1,165 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #4e0505;
+    padding: 0px 100px ;
+}
+
+
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(197, 2, 2, 0.2); /* Added box shadow to header */
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit:fill
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style-type: none;
+    display:flex
+    
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Section Styles */
+section {
+    margin: 40px 0;
+    padding: 20px 25px;
+    box-shadow: 0 4px 20px rgba(7, 129, 88, 0.76); /* Added box shadow to section */
+
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: #05029bb2; /* Custom underline color */
+    text-decoration-thickness: 3px; /* Custom underline thickness */
+
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+form label {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color:#333;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    font-size: 1rem;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #043b06;
+    color: white;
+}
+
+.skills-list {
+    list-style-type: circle; /* Circle bullets */
+    padding-left: 20px; /* Adds space before the list (indent the entire list) */
+}
+
+/* Apply a square bullet style for the Projects section */
+.projects-list {
+    list-style-type: square; /* Square bullets */
+    padding-left: 20px; /* Adds space before the list (indent the entire list) */
+}
